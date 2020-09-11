@@ -9,6 +9,8 @@
     "bootstrap": "^4.5.2",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-popper": "^2.2.3",
