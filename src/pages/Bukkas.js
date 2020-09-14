@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
-import BukkaCard from '../components/BukkaCard';
+import BukkaCards from '../components/BukkaCards';
 import Footer from '../components/Footer';
 
 const Bukkas = () => {
@@ -9,7 +9,7 @@ const Bukkas = () => {
         <>
             <Navbar />
             <Header />
-            <BukkaCard />
+            <BukkaCards />
             <Footer />
         </>
     );

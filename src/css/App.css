@@ -16,8 +16,48 @@ body {
   clear: both;
 }
 
+.center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
 .xtreme-bold {
   font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.xtreme-bold-2 {
+  font-size: 2.5rem;
   font-weight: 900;
 }
 
@@ -90,4 +130,86 @@ body {
   .ml-50 {
     margin-left: 50px;
   }
+}
+
+.header {
+  background-image: url("../images/foodbukka.jpg");
+  width: 100%;
+  height: 600px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+}
+
+.header-search {
+  width: 400px;
+  height: 55px;
+  outline: none;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.header-search-button {
+  /* width: 100px;
+  height: 48px;
+  border-radius: 10px;
+  color: #f8f9fa;
+  background-color: #dc3545; */
+}
+
+/* .header-search-button:hover {
+  width: 100px;
+  height: 48px;
+  border-radius: 10px;
+  color: #f8f9fa;
+  background-color: #dc3545;
+  outline: none;
+} */
+
+.btn-outline-light {
+  font-weight: bold;
+}
+
+.btn-outline-light:hover {
+  color: #dc3545;
+  background-color: #f8f9fa;
+  border: none;
+  font-weight: bold;
+}
+
+.card-container {
+  display: block;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: auto;
+  height: auto;
+}
+
+.bukka-card {
+  display: inline-block;
+  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 29%;
+  height: 500px;
+}
+
+.card-btn {
+  margin-left: 36%;
+  /* margin-top: 90%; */
+}
+
+.small,
+small {
+  font-size: 80%;
+  font-weight: 700;
+}
+
+.area-img {
+  width: 35%;
+  height: auto;
 }
