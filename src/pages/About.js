@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const Error = () => {
+const About = () => {
     return (
         <>
             <Navbar />
@@ -13,4 +13,4 @@ const Error = () => {
     );
 }
 
-export default Error;
+export default About;
