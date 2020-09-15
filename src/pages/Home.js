@@ -116,7 +116,21 @@ const Home = () => {
                 <h2 className="text-danger center mt-50 mb-50">Featured Areas</h2>
             </section>
 
-            <AreaCards image={abjImg} city="Abuja" number="324 Restaurants" className="area-img" />
+            <section className="area-home">
+                <AreaCards image={abjImg} city="Abuja" number="1320 Restaurants" className="area-img" />
+                <AreaCards image={lgImg} city="Lagos" number="13674 Restaurants" className="area-img" />
+                <AreaCards image={ph} city="Port-Harcourt" number="1051 Restaurants" className="area-img" />
+                <AreaCards image={vi} city="Victoria Island" number="197 Restaurants" className="area-img" />
+                <AreaCards image={enugu} city="Enugu" number="324 Restaurants" className="area-img" />
+                <AreaCards image={ikeja} city="Ikeja" number="572 Restaurants" className="area-img" />
+                <AreaCards image={ajah} city="Ajah" number="208 Restaurants" className="area-img" />
+                <AreaCards image={owerri} city="Owerri" number="176 Restaurants" className="area-img" />
+                <AreaCards image={ikoyi} city="Ikoyi" number="180 Restaurants" className="area-img" />
+            </section>
+
+            <Link to="/bukkainareas" className="nav-link text-danger xtreme-bold text-right mr-50">
+                View all Cities
+            </Link>
             <Footer />
         </>
     );

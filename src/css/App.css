@@ -153,23 +153,6 @@ body {
   margin-right: 50px;
 }
 
-.header-search-button {
-  /* width: 100px;
-  height: 48px;
-  border-radius: 10px;
-  color: #f8f9fa;
-  background-color: #dc3545; */
-}
-
-/* .header-search-button:hover {
-  width: 100px;
-  height: 48px;
-  border-radius: 10px;
-  color: #f8f9fa;
-  background-color: #dc3545;
-  outline: none;
-} */
-
 .btn-outline-light {
   font-weight: bold;
 }
@@ -187,6 +170,11 @@ body {
   margin-right: 2%;
   width: auto;
   height: auto;
+}
+
+.card-img,
+.card-img-top {
+  height: 200px;
 }
 
 .bukka-card {
@@ -209,7 +197,36 @@ small {
   font-weight: 700;
 }
 
-.area-img {
-  width: 35%;
+.area-section {
+  display: inline-block !important;
+  width: 31%;
   height: auto;
+  margin: 0 1%;
+}
+
+.area-home {
+  width: 100%;
+  height: auto;
+  padding-left: 2%;
+}
+
+.area-section-details {
+  position: relative;
+  bottom: 130px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.area-section-img {
+  width: 95%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.area-link {
+}
+
+.area-img {
 }
