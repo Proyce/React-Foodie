@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const AreaCards = ({image,city,number}) => {
+const AreaCards = ({cityUrl,image,city,number}) => {
     return (
         <>
             <section class="area-section">
-                <Link to="area-link" style={{ textDecoration: 'none' }}>
+                <Link to={cityUrl} style={{ textDecoration: 'none' }}>
                     <img alt="city-img" src={image} className="area-section-img" />
                     <section className="area-section-details">
                         <h5 className="">{city}</h5>

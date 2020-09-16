@@ -211,8 +211,10 @@ small {
 }
 
 .area-section-details {
-  position: relative;
-  bottom: 130px;
+  /* position: relative; */
+  /* bottom: 130px; */
+  margin-top: -130px;
+  padding-bottom: 80px;
   text-align: center;
   color: #ffffff;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,

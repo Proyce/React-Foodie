@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BukkasInArea = () => {
+const Cities = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const BukkasInArea = () => {
     )
 }
 
-export default BukkasInArea;
+export default Cities;
