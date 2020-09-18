@@ -13,6 +13,7 @@
     "icons": "^1.0.0",
     "jquery": "^3.5.1",
     "material-ui": "^0.20.2",
+    "mdbreact": "^4.27.0",
     "mongodb": "^3.6.2",
     "mongoose": "^5.10.5",
     "react": "^16.13.1",

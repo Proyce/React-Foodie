@@ -22,7 +22,7 @@ const Home = () => {
         <Navbar />
         <HomeHeader />
         <h2 className="text-danger center mt-50 mb-50">Featured Restaurants</h2>
-        <section className="card-container">
+        <section className="card-container jumbotron">
           <BukkaCards
             name="Iya Basira restaurant"
             image={foodImg}
@@ -107,13 +107,14 @@ const Home = () => {
             reviews="508 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
             stars="★★★☆☆"
           />
+
+          <Link
+            to="/bukkas"
+            className="nav-link text-danger xtreme-bold text-right mr-50"
+          >
+            View all restaurants
+          </Link>
         </section>
-        <Link
-          to="/bukkas"
-          className="nav-link text-danger xtreme-bold text-right mr-50"
-        >
-          View all restaurants
-        </Link>
 
         <section>
           <h2 className="text-danger center mt-50 mb-50">Featured Areas</h2>
@@ -187,7 +188,7 @@ const Home = () => {
 
         <Link
           to="/bukkainareas"
-          className="nav-link text-danger xtreme-bold text-right mr-50"
+          className="nav-link text-danger xtreme-bold text-right mr-50 mb-50"
         >
           View all Cities
         </Link>
