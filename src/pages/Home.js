@@ -26,9 +26,9 @@ const Home = () => {
           <BukkaCards
             name="Iya Basira restaurant"
             image={foodImg}
-            location="1, signboard bus stop, Addo-Badore Road. Opposite Harvest Bakery, Ajah, Lagos."
+            location="1, signboard bus stop, Addo-Badore Road, Ajah, Lagos."
             reviews="8765 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★★★"
+            stars="★★★★☆"
           />
           <BukkaCards
             name="The Food Place"
@@ -96,14 +96,14 @@ const Home = () => {
           <BukkaCards
             name="Dorinda Fast Food"
             image={foodImg}
-            location="H518, Road 3, Ikota Shopping Complex Ikota Shopping Complex, Vgc, Lekki, Lagos "
+            location="H518, Road 3, Ikota Shopping Complex, Vgc, Lekki, Lagos "
             reviews="30 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
             stars="★★★★☆"
           />
           <BukkaCards
             name="Doole Bukka Joint"
             image={foodImg}
-            location="10 Oladipo Dunmoye Street, Oke-Ira, off Ajah-Addoh Road, Eti-Osa 101245, Lekki "
+            location="10 Oladipo Dunmoye Srt, Oke-Ira, off Ajah-Addoh Road, Lekki, Lagos"
             reviews="508 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
             stars="★★★☆☆"
           />

@@ -147,14 +147,15 @@ body {
 
 .home-header {
   background-image: url("../images/home-background.jpg");
+  background-attachment: fixed;
   width: 100%;
-  height: 600px;
+  height: 100vh;
 }
 
 .search-section {
   display: block;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 35vh;
 }
 
 .header-search {
@@ -189,10 +190,10 @@ body {
 
 .bukka-card {
   display: inline-block;
-  margin: 2%;
+  margin: 1%;
   margin-left: 2%;
-  margin-right: 2%;
-  width: 29%;
+  margin-right: 1%;
+  width: 22%;
   height: auto;
 }
 
@@ -253,6 +254,7 @@ small {
   width: 100%;
   height: 305px;
   background-image: url("../images/african-restaurant.jpg");
+  background-attachment: fixed;
 }
 
 .bg-danger {
@@ -273,6 +275,15 @@ small {
   width: 650px;
   height: auto;
   padding: 0 auto;
+}
+
+.right-bukka {
+  width: 600px;
+}
+
+.bottom-bukka {
+  width: auto;
+  height: auto;
 }
 
 .jumbotron {

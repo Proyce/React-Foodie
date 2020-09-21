@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-dark bg-danger navbar-expand-lg fixed-top">
-        <span className="navbar-brand mb-0 h1 xtreme-bold ml-50">FOODBUKKA</span>
+        <span className="navbar-brand mb-0 h1 xtreme-bold ml-50">
+          FOODBUKKA
+        </span>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,17 +30,16 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/bukkas" className="nav-link mr-25">
+                Bukkas
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/about" className="nav-link mr-25">
                 About Us
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/contact" className="nav-link mr-25">
-                Contact Us
-              </Link>
-            </li>
-            </ul>
-
+          </ul>
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link to="/signup" className="nav-link mr-25">
@@ -52,8 +53,6 @@ const Navbar = () => {
             </li>
           </ul>
         </section>
-
-        
       </nav>
     </>
   );
