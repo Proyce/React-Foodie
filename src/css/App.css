@@ -119,7 +119,7 @@ body {
 
 @media screen and (min-width: 1000px) {
   .navbar-brand {
-    margin-right: 300px;
+    margin-right: 200px;
   }
 
   .mr-25 {
@@ -133,7 +133,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .navbar-brand {
-    margin-right: 550px;
+    margin-right: 850px;
   }
 
   .mr-25 {
