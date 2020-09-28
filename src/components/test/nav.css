@@ -4,7 +4,17 @@
 
 /* Nav Styles */
 nav {
-  background: #000000;
+  background: rgb(180, 58, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 58, 58, 1) 0%,
+    rgba(205, 71, 48, 1) 11%,
+    rgba(233, 86, 37, 1) 26%,
+    rgba(253, 29, 29, 1) 44%,
+    rgba(253, 39, 39, 1) 63%,
+    rgba(253, 50, 85, 1) 81%,
+    rgba(252, 176, 69, 1) 98%
+  );
   padding: 10px 0;
 }
 

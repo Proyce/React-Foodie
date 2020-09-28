@@ -1,3 +1,4 @@
+/* Generic styles */
 html,
 body {
   margin: 0;
@@ -74,10 +75,21 @@ body {
   font-weight: 900;
 }
 
+.mr-25 {
+  margin-right: 25px;
+}
+
 .no-outline {
   outline: none;
 }
 
+.small,
+small {
+  font-size: 80%;
+  font-weight: 700;
+}
+
+/* Nav, Navbar */
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255);
   font-weight: 500;
@@ -88,21 +100,21 @@ body {
   font-weight: 900;
 }
 
-.btn-outline-light {
-  font-weight: bold;
+.bg-danger {
+  background: rgb(180, 58, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 58, 58, 1) 0%,
+    rgba(205, 71, 48, 1) 11%,
+    rgba(233, 86, 37, 1) 26%,
+    rgba(253, 29, 29, 1) 44%,
+    rgba(253, 39, 39, 1) 63%,
+    rgba(253, 50, 85, 1) 81%,
+    rgba(252, 176, 69, 1) 98%
+  );
 }
 
-.btn-outline-light:hover {
-  color: #dc3545;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-  font-weight: bold;
-}
-
-.mr-25 {
-  margin-right: 25px;
-}
-
+/* Responsive Media Queries */
 @media screen and (min-width: 650px) {
   .navbar-brand {
     margin-right: 250px;
@@ -145,6 +157,26 @@ body {
   }
 }
 
+/* Header */
+
+.btn-outline-light {
+  font-weight: bold;
+}
+
+.btn-outline-light:hover {
+  color: #dc3545;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.header {
+  width: 100%;
+  height: 305px;
+  background-image: url("../images/african-restaurant.jpg");
+  background-attachment: fixed;
+}
+
 .home-header {
   background-image: url("../images/home-background.jpg");
   background-attachment: fixed;
@@ -177,6 +209,8 @@ body {
   font-weight: bold;
 }
 
+/* Card Styles */
+
 .card-container {
   display: block;
   width: auto;
@@ -202,11 +236,7 @@ body {
   /* margin-top: 90%; */
 }
 
-.small,
-small {
-  font-size: 80%;
-  font-weight: 700;
-}
+/* Restaurant Area styles */
 
 .area-section {
   display: inline-block !important;
@@ -238,6 +268,8 @@ small {
   border-radius: 5px;
 }
 
+/* Footer styles */
+
 .footer {
   width: 100%;
   height: auto;
@@ -250,26 +282,7 @@ small {
   margin: 50px auto;
 }
 
-.header {
-  width: 100%;
-  height: 305px;
-  background-image: url("../images/african-restaurant.jpg");
-  background-attachment: fixed;
-}
-
-.bg-danger {
-  background: rgb(180, 58, 58);
-  background: linear-gradient(
-    90deg,
-    rgba(180, 58, 58, 1) 0%,
-    rgba(205, 71, 48, 1) 11%,
-    rgba(233, 86, 37, 1) 26%,
-    rgba(253, 29, 29, 1) 44%,
-    rgba(253, 39, 39, 1) 63%,
-    rgba(253, 50, 85, 1) 81%,
-    rgba(252, 176, 69, 1) 98%
-  );
-}
+/* Bukka Page Styles */
 
 .left-bukka {
   width: 650px;

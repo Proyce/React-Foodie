@@ -59,8 +59,8 @@ const Bukkas = () => {
           </ul>
         </section>
         <section className="clear bottom-bukka mt-50">
-          <h2 className="text-danger center">Nearby Restaurants</h2>
           <section className="jumbotron">
+            <h2 className="text-danger center mb-25">Nearby Restaurants</h2>
             <BukkaCards
               name="Panarottis Restaurant"
               image={foodImg}
