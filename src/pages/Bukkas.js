@@ -23,42 +23,72 @@ const Bukkas = () => {
             Restaurants Details
           </h2>
           <ul className="text-left text-dark">
-            <li>
+            <li className="restaurant-list-details">
               <b>Reviews & Rating:&nbsp;</b> ★★★★☆ (8765 reviews)
             </li>
-            <li>
+            <li className="restaurant-list-details">
               <b>Location:&nbsp;</b> No 1, signboard bus stop, Addo-Badore Road.
               Opposite Harvest Bakery, Ajah, Lagos.
             </li>
-            <li>
+            <li className="restaurant-list-details">
               <b>Restaurant Type:&nbsp;</b>Local Bukka
             </li>
-            <li>
+            <li className="restaurant-list-details">
               <b>Cost:&nbsp;</b> From N300
             </li>
-            <li>
+            <li className="restaurant-list-details">
               <b>Capacity&nbsp;</b> 15 tables
             </li>
-            <li>
+            <li className="restaurant-list-details">
               <b>Hours of operation&nbsp;</b> <br />
               Mon–Fri :00 pm–1:00 am <br /> Sat 12:00 pm–1:30 am <br /> Sun 1:00
               pm–12:00 am
             </li>
-            <li>
+            <li className="restaurant-list-details">
               <b>Phone Number&nbsp;</b>08139844222
             </li>
-            <li>
+            <li className="restaurant-list-details">
               <b>Email:</b> &nbsp;ibasira-ng@gmail.com
             </li>
-            <li>
+            <li className="restaurant-list-details">
               <b>Parking?&nbsp;</b> No
             </li>
-            <li>
+            <li className="restaurant-list-details">
               <b>Restroom?&nbsp;</b> Yes
             </li>
           </ul>
         </section>
-        <section className="clear bottom-bukka mt-50">
+        <section className="clear bukka-details">
+          <p>
+            <b>Details</b>:<br />
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word in classical literature,
+            discovered the undoubtable source. Lorem Ipsum comes from sections
+            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a
+            treatise on the theory of ethics, very popular during the
+            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+            amet..", comes from a line in section 1.10.32. <br/>
+            <b>Menu</b>: <br/>Contrary to popular
+            belief, Lorem Ipsum is not simply random text. It has roots in a
+            piece of classical Latin literature from 45 BC, making it over 2000
+            years old. Richard McClintock, a Latin professor at Hampden-Sydney
+            College in Virginia, looked up one of the more obscure Latin words,
+            consectetur, from a Lorem Ipsum passage, and going through the cites
+            of the word in classical literature, discovered the undoubtable
+            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+            Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+            Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem
+            Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+            1.10.32.
+          </p>
+        </section>
+        <section className="bottom-bukka mt-50">
           <section className="jumbotron">
             <h2 className="text-danger center mb-25">Nearby Restaurants</h2>
             <BukkaCards

@@ -236,6 +236,15 @@ small {
   /* margin-top: 90%; */
 }
 
+.bukka-details {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.restaurant-list-details {
+  list-style-type: none;
+}
+
 /* Restaurant Area styles */
 
 .area-section {
@@ -291,7 +300,7 @@ small {
 }
 
 .right-bukka {
-  width: 600px;
+  width: 700px;
 }
 
 .bottom-bukka {

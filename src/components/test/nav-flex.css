@@ -1,6 +1,11 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 nav {
@@ -32,27 +37,29 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   font-weight: bolder;
 }
 
-@media all and (min-width: 560px) {
+.nav-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-items: flex-start;
+}
+
+.logo {
+  flex-grow: 1;
+}
+.item {
+  flex-grow: 2;
+  justify-items: flex-end;
+}
+
+@media all and (max-width: 768px) {
   .nav-item {
-    display: flex;
-    flex-basis: 100%;
-    justify-items: flex-end;
-  }
-
-  /* .ul-item {
-  } */
-
-  .ul-one {
-    flex-grow: 1;
-    justify-content: flex-start;
-  }
-
-  .ul-two {
-    display: flex;
-    justify-self: flex-end;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
