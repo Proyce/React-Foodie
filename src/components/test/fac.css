@@ -45,6 +45,10 @@ a:hover {
   font-weight: bolder;
   color: #fff;
 }
+
+.logo a {
+  font-size: 1.5rem;
+}
 .button.secondary {
   border-bottom: 1px #fff solid;
 }
@@ -143,7 +147,6 @@ a:hover {
   .toggle {
     order: 2;
     align-self: center;
-    padding-bottom: 300px;
   }
   .button.secondary {
     border: 0;
@@ -161,6 +164,7 @@ a:hover {
   }
   .logo {
     order: 0;
+    margin-left: 50px;
   }
   .item {
     order: 1;
@@ -168,6 +172,11 @@ a:hover {
   .button {
     order: 2;
   }
+
+  .button.secondary {
+    margin-right: 50px;
+  }
+
   .menu li {
     padding: 15px 10px;
   }
