@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-dark bg-danger navbar-expand-lg fixed-top">
+      {/* <nav className="navbar navbar-dark bg-danger navbar-expand-lg fixed-top">
         <span className="navbar-brand mb-0 h1 xtreme-bold ml-50">
           FOODBUKKA
         </span>
@@ -53,6 +53,32 @@ const Navbar = () => {
             </li>
           </ul>
         </section>
+      </nav> */}
+
+      <nav>
+        <ul className="menu">
+          <li className="logo">
+            <Link to="/">FINDBUKKA</Link>
+          </li>
+          <li className="item">
+            <Link to="/">Home</Link>
+          </li>
+          <li className="item">
+            <Link to="/about">About</Link>
+          </li>
+          <li className="item">
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li className="item button">
+            <Link to="/signup">Sign Up</Link>
+          </li>
+          <li className="item button secondary">
+            <Link to="/signin">Sign In</Link>
+          </li>
+          <li className="toggle">
+            <span className="hamburger"></span>
+          </li>
+        </ul>
       </nav>
     </>
   );

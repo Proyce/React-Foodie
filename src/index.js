@@ -7,6 +7,7 @@ import "jquery/dist/jquery.min.js";
 import "popper.js/dist/umd/popper.min.js";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "./css/App.css";
+import "./css/navbar.css";
 
 ReactDOM.render(
   <BrowserRouter>
