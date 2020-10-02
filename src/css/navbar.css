@@ -49,17 +49,17 @@ a:hover {
 .logo a {
   font-size: 1.5rem;
 }
-.button.secondary {
+.nav-button.nav-nav-secondary {
   border-bottom: 1px #fff solid;
 }
 
-.button a {
+.nav-button a {
   padding: 7px 15px;
   border: 1px solid #fff;
   border-radius: 5px;
 }
 
-.button a:hover {
+.nav-button a:hover {
   font-weight: bold;
   color: #ff0000;
   background: #fff;
@@ -84,7 +84,7 @@ a:hover {
 .toggle {
   order: 1;
 }
-.item.button {
+.item.nav-button {
   order: 2;
 }
 .item {
@@ -139,7 +139,7 @@ a:hover {
     flex: 1;
   }
 
-  .item.button {
+  .item.nav-button {
     width: auto;
     order: 1;
     display: block;
@@ -148,7 +148,7 @@ a:hover {
     order: 2;
     align-self: center;
   }
-  .button.secondary {
+  .nav-button.nav-nav-secondary {
     border: 0;
   }
 }
@@ -169,18 +169,18 @@ a:hover {
   .item {
     order: 1;
   }
-  .button {
+  .nav-button {
     order: 2;
   }
 
-  .button.secondary {
+  .nav-button.nav-nav-secondary {
     margin-right: 50px;
   }
 
   .menu li {
     padding: 15px 10px;
   }
-  .menu li.button {
+  .menu li.nav-button {
     padding-right: 0;
   }
 }

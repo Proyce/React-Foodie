@@ -1,200 +1,224 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
+import React from "react";
+import Navbar from "../components/Navbar";
 import HomeHeader from "../components/HomeHeader";
-import BukkaCards from '../components/BukkaCards';
-import AreaCards from '../components/AreaCards';
-import Footer from '../components/Footer';
+import BukkaCards from "../components/BukkaCards";
+import AreaCards from "../components/AreaCards";
+import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import foodImg from '../images/foodbukka-2.jpg';
-import lgImg from '../images/lagos-ng.jpg';
-import abjImg from '../images/abuja.jpg';
-import ajah from '../images/ajah-lagos.jpg';
-import ikeja from '../images/ikeja-lagos.jpg';
-import ikoyi from '../images/ikoyi-lagos.jpg';
-import owerri from '../images/owerri-nigeria.jpg';
-import ph from '../images/port-harcourt-nigeria.jpg';
-import enugu from '../images/enugu.jpg';
-import vi from '../images/vi-lagos.jpg';
+import foodImg from "../images/foodbukka-2.jpg";
+import lgImg from "../images/lagos-ng.jpg";
+import abjImg from "../images/abuja.jpg";
+import ajah from "../images/ajah-lagos.jpg";
+import ikeja from "../images/ikeja-lagos.jpg";
+import ikoyi from "../images/ikoyi-lagos.jpg";
+import owerri from "../images/owerri-nigeria.jpg";
+import ph from "../images/port-harcourt-nigeria.jpg";
+import enugu from "../images/enugu.jpg";
+import vi from "../images/vi-lagos.jpg";
 
 const Home = () => {
-    return (
-      <>
-        <Navbar />
-        <HomeHeader />
-        <h2 className="text-danger center mt-50 mb-50">Featured Restaurants</h2>
-        <section className="card-container jumbotron">
-          <BukkaCards
-            name="Iya Basira restaurant"
-            image={foodImg}
-            location="1, signboard bus stop, Addo-Badore Road, Ajah, Lagos."
-            reviews="8765 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★★☆"
-          />
-          <BukkaCards
-            name="The Food Place"
-            image={foodImg}
-            location="1, Addo Road, Ajah Roundabout, Ajah, Eti-Osa, Lagos Nigeria "
-            reviews="507 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★☆☆☆"
-          />
-          <BukkaCards
-            name="Mama Ebuka Restaurants"
-            image={foodImg}
-            location="Located at Shop 4 Imo 1 Plaza, Ado Road, Ajah, Lagos"
-            reviews="570 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★★☆"
-          />
-          <BukkaCards
-            name="Iyanla Catering Services"
-            image={foodImg}
-            location="Block D Hse 19b Abraham Adesanya Estate, Ajah, Lagos Nigeria"
-            reviews="438 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★☆☆☆☆"
-          />
-          <BukkaCards
-            name="Ahmaddu Musa Maisha"
-            image={foodImg}
-            location="Located at Road 7, Abraham Adesanya Estate, Ajah, Lagos"
-            reviews="84 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★☆☆"
-          />
-          <BukkaCards
-            name="Morris Beer Joint"
-            image={foodImg}
-            location="Located at 50 Addo Road, Ajah, Lekki-Ajah Lagos Nigeria"
-            reviews="500 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★★☆"
-          />
-          <BukkaCards
-            name="Panarottis Restaurant"
-            image={foodImg}
-            location="Panarottis Restaurant, 20 Langbasa Road, Ajah, Lagos"
-            reviews="3637 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★☆☆"
-          />
-          <BukkaCards
-            name="Mallam Yaguda Suya Joint"
-            image={foodImg}
-            location="Cardinal Anthony Olubunmi Okogie Rd Shop C42, Lekki-Ajah"
-            reviews="450 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★★★"
-          />
-          <BukkaCards
-            name="Iya Tunde Bole Joint"
-            image={foodImg}
-            location="Lekki-Epe Expressway, 5th Roundabout Circle Mall, Ajah Lagos "
-            reviews="5000 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★☆☆"
-          />
-          <BukkaCards
-            name="Chris Shawarma Place"
-            image={foodImg}
-            location="Shop C41, Lekki Mall, Ibeju Lekki Express, Lekki Lagos"
-            reviews="50 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★★★"
-          />
-          <BukkaCards
-            name="Dorinda Fast Food"
-            image={foodImg}
-            location="H518, Road 3, Ikota Shopping Complex, Vgc, Lekki, Lagos "
-            reviews="30 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★★☆"
-          />
-          <BukkaCards
-            name="Doole Bukka Joint"
-            image={foodImg}
-            location="10 Oladipo Dunmoye Srt, Oke-Ira, off Ajah-Addoh Road, Lekki, Lagos"
-            reviews="508 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-            stars="★★★☆☆"
-          />
-
-          <Link
-            to="/bukkas"
-            className="nav-link text-danger xtreme-bold text-right mr-50"
-          >
-            View all restaurants
-          </Link>
-        </section>
-
-        <section>
-          <h2 className="text-danger center mt-50 mb-50">Featured Areas</h2>
-        </section>
-
-        <section className="area-home">
-          <AreaCards
-            image={abjImg}
-            city="Abuja"
-            number="1320 Restaurants"
-            className="area-img"
-            cityUrl="/cities/"
-          />
-          <AreaCards
-            image={lgImg}
-            city="Lagos"
-            number="13674 Restaurants"
-            className="area-img"
-            cityUrl="/cities/"
-          />
-          <AreaCards
-            image={ph}
-            city="Port-Harcourt"
-            number="1051 Restaurants"
-            className="area-img"
-            cityUrl="/cities/"
-          />
-          <AreaCards
-            image={vi}
-            city="Victoria Island"
-            number="197 Restaurants"
-            className="area-img"
-            cityUrl="/cities/"
-          />
-          <AreaCards
-            image={enugu}
-            city="Enugu"
-            number="324 Restaurants"
-            className="area-img"
-            cityUrl="/cities/"
-          />
-          <AreaCards
-            image={ikeja}
-            city="Ikeja"
-            number="572 Restaurants"
-            className="area-img"
-            cityUrl="/cities/"
-          />
-          <AreaCards
-            image={ajah}
-            city="Ajah"
-            number="208 Restaurants"
-            className="area-img"
-            cityUrl="/cities/"
-          />
-          <AreaCards
-            image={owerri}
-            city="Owerri"
-            number="176 Restaurants"
-            className="area-img"
-            cityUrl="/cities/"
-          />
-          <AreaCards
-            image={ikoyi}
-            city="Ikoyi"
-            number="180 Restaurants"
-            className="area-img"
-            cityUrl="/cities/"
-          />
-        </section>
+  return (
+    <>
+      <Navbar />
+      <HomeHeader />
+      <h2 className="center mt-50 mb-50">Featured Restaurants</h2>
+      <section className="bukka-card-container">
+        <BukkaCards
+          name="Iya Basira restaurant"
+          image={foodImg}
+          location="1, signboard bus stop, Addo-Badore Road, Ajah, Lagos."
+          reviews="8765 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★★☆"
+          type="Mama Put Bukka"
+          price="N300"
+        />
+        <BukkaCards
+          name="The Food Place"
+          image={foodImg}
+          location="No 1, Addo Road, Ajah Roundabout, Ajah, Eti-Osa, Lagos Nigeria. No 1, Addo Road, Ajah Roundabout, Ajah, Eti-Osa, Lagos Nigeria."
+          reviews="507 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★☆☆☆"
+          type="2-Star Restaurant"
+          price="N500"
+        />
+        <BukkaCards
+          name="Mama Ebuka Restaurants"
+          image={foodImg}
+          location="Located at Shop 4 Imo 1 Plaza, Ado Road, Ajah, Lagos"
+          reviews="570 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★★☆"
+          type="Mama Put Bukka"
+          price="N350"
+        />
+        <BukkaCards
+          name="Iyanla Catering Services"
+          image={foodImg}
+          location="Block D Hse 19b Abraham Adesanya Estate, Ajah, Lagos Nigeria"
+          reviews="438 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★☆☆☆☆"
+          type="Home Delivery Catering Services"
+          price="N3000"
+        />
+        <BukkaCards
+          name="Ahmaddu Musa Maisha"
+          image={foodImg}
+          location="Located at Road 7, Abraham Adesanya Estate, Ajah, Lagos"
+          reviews="84 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★☆☆"
+          type="Maishai"
+          price="N200"
+        />
+        <BukkaCards
+          name="Morris Beer Joint"
+          image={foodImg}
+          location="Located at 50 Addo Road, Ajah, Lekki-Ajah Lagos Nigeria"
+          reviews="500 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★★☆"
+          type="Beer Joint"
+          price="N500"
+        />
+        <BukkaCards
+          name="Panarottis Restaurant"
+          image={foodImg}
+          location="Panarottis Restaurant, 20 Langbasa Road, Ajah, Lagos"
+          reviews="3637 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★☆☆"
+          type="3-star Restaurant"
+          price="N1000"
+        />
+        <BukkaCards
+          name="Mallam Musa Suleiman Yaguda Suya Jointt"
+          image={foodImg}
+          location="Cardinal Anthony Olubunmi Okogie Rd Shop C42, Lekki-Ajah"
+          reviews="450 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★★★"
+          type="Suya (Local Nigerian Barbeque)"
+          price="N1200"
+        />
+        <BukkaCards
+          name="Iya Tunde Bole Joint"
+          image={foodImg}
+          location="Lekki-Epe Expressway, 5th Roundabout Circle Mall, Ajah Lagos "
+          reviews="5000 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★☆☆"
+          type="Bole (Nigerian Roasted Plantain)"
+          price="N300"
+        />
+        <BukkaCards
+          name="Chris Shawarma Place"
+          image={foodImg}
+          location="Shop C41, Lekki Mall, Ibeju Lekki Express, Lekki Lagos"
+          reviews="50 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★★★"
+          type="Sharwarma"
+          price="N1000"
+        />
+        <BukkaCards
+          name="Dorinda Fast Food"
+          image={foodImg}
+          location="H518, Road 3, Ikota Shopping Complex, Vgc, Lekki, Lagos "
+          reviews="30 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★★☆"
+          type="Fast Food"
+          price="N750"
+        />
+        <BukkaCards
+          name="Doole Bukka Joint"
+          image={foodImg}
+          location="10 Oladipo Dunmoye Srt, Oke-Ira, off Ajah-Addoh Road, Lekki, Lagos"
+          reviews="508 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+          stars="★★★☆☆"
+          type="Mama Put Bukka"
+          price="N300"
+        />
 
         <Link
-          to="/bukkainareas"
-          className="nav-link text-danger xtreme-bold text-right mr-50 mb-50"
+          to="/bukkas"
+          className="nav-link text-danger xtreme-bold text-right mr-50"
         >
-          View all Cities
+          View all restaurants
         </Link>
-        <Footer />
-      </>
-    );
-}
+      </section>
+
+      <section>
+        <h2 className="text-danger center mt-50 mb-50">Featured Areas</h2>
+      </section>
+
+      <section className="area-home">
+        <AreaCards
+          image={abjImg}
+          city="Abuja"
+          number="1320 Restaurants"
+          className="area-img"
+          cityUrl="/cities/"
+        />
+        <AreaCards
+          image={lgImg}
+          city="Lagos"
+          number="13674 Restaurants"
+          className="area-img"
+          cityUrl="/cities/"
+        />
+        <AreaCards
+          image={ph}
+          city="Port-Harcourt"
+          number="1051 Restaurants"
+          className="area-img"
+          cityUrl="/cities/"
+        />
+        <AreaCards
+          image={vi}
+          city="Victoria Island"
+          number="197 Restaurants"
+          className="area-img"
+          cityUrl="/cities/"
+        />
+        <AreaCards
+          image={enugu}
+          city="Enugu"
+          number="324 Restaurants"
+          className="area-img"
+          cityUrl="/cities/"
+        />
+        <AreaCards
+          image={ikeja}
+          city="Ikeja"
+          number="572 Restaurants"
+          className="area-img"
+          cityUrl="/cities/"
+        />
+        <AreaCards
+          image={ajah}
+          city="Ajah"
+          number="208 Restaurants"
+          className="area-img"
+          cityUrl="/cities/"
+        />
+        <AreaCards
+          image={owerri}
+          city="Owerri"
+          number="176 Restaurants"
+          className="area-img"
+          cityUrl="/cities/"
+        />
+        <AreaCards
+          image={ikoyi}
+          city="Ikoyi"
+          number="180 Restaurants"
+          className="area-img"
+          cityUrl="/cities/"
+        />
+      </section>
+
+      <Link
+        to="/bukkainareas"
+        className="nav-link text-danger xtreme-bold text-right mr-50 mb-50"
+      >
+        View all Cities
+      </Link>
+      <Footer />
+    </>
+  );
+};
 
 export default Home;

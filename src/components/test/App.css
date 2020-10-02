@@ -1,7 +1,4 @@
 /* Generic styles */
-* {
-  margin: 0;
-}
 html,
 body {
   margin: 0;
@@ -426,6 +423,7 @@ a:hover {
   display: flex;
   margin: auto;
   height: auto;
+  font-family: "Times New Roman", Times, serif;
   flex-basis: 300px;
   flex-wrap: wrap;
   justify-content: center;
@@ -441,7 +439,7 @@ a:hover {
   flex-wrap: wrap;
   margin: 20px 5px;
   background: #ffffff;
-  width: 300px;
+  width: auto;
   border: 1px solid #dddddd;
   border-radius: 5px;
 }
@@ -451,6 +449,7 @@ a:hover {
 }
 .bukka-card img {
   width: 300px;
+  margin: 0 auto;
   height: 175px;
   border-radius: 5px;
 }
@@ -466,6 +465,8 @@ a:hover {
 }
 
 .bukka-card-button {
+  width: 300px;
+  margin: 0 auto;
   color: #fff;
   background: #ff5100;
   padding: 7px 15px;
@@ -538,6 +539,8 @@ a:hover {
 }
 
 .area-section-details {
+  /* position: relative; */
+  /* bottom: 130px; */
   margin-top: -130px;
   padding-bottom: 80px;
   text-align: center;

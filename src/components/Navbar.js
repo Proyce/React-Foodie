@@ -69,10 +69,10 @@ const Navbar = () => {
           <li className="item">
             <Link to="/contact">Contact</Link>
           </li>
-          <li className="item button">
+          <li className="item nav-button">
             <Link to="/signup">Sign Up</Link>
           </li>
-          <li className="item button secondary">
+          <li className="item nav-button nav-secondary">
             <Link to="/signin">Sign In</Link>
           </li>
           <li className="toggle">
