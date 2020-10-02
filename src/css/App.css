@@ -392,32 +392,122 @@ a:hover {
   background-image: url("../images/home-background.jpg");
   background-attachment: fixed;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 67px);
+}
+
+.home-header-text {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.home-header-text-2 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #ffffff;
 }
 
 .search-section {
   display: block;
   text-align: center;
-  padding-top: 35vh;
+  padding-top: 30vh;
 }
 
 .header-search {
-  width: 500px;
+  width: 40%;
   height: 55px;
   outline: none;
   border-radius: 10px;
   margin-right: 50px;
+  border: none;
+}
+
+.header-search:hover,
+.header-search:hover {
+  transform: scale(1.05);
 }
 
 .btn-outline-light {
+  font-size: 1.25rem;
   font-weight: bold;
+  padding: 15px 22px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #f8f9fa;
+  background-color: #ff5100;
+  outline: none;
 }
 
 .btn-outline-light:hover {
-  color: #dc3545;
+  color: #ff5100;
   background-color: #f8f9fa;
   border: none;
   font-weight: bold;
+  transform: scale(1.05);
+}
+
+@media all and (max-width: 768px) {
+  .home-header {
+    height: auto;
+    padding-bottom: 25px;
+  }
+  .search-section {
+    padding-top: 15vh;
+  }
+
+  .home-header-text {
+    font-size: 40px;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 0 10px;
+  }
+
+  .home-header-text-2 {
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 0 10px;
+  }
+  .header-search {
+    display: block;
+    width: 75%;
+    height: 55px;
+    outline: none;
+    border-radius: 10px;
+    margin-right: 50px;
+    border: none;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .header-search:hover,
+  .header-search:hover {
+    transform: scale(1.05);
+  }
+
+  .btn-outline-light {
+    display: block;
+    width: 50%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 15px 22px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #f8f9fa;
+    background-color: #ff5100;
+    outline: none;
+    margin: auto;
+  }
+
+  .btn-outline-light:hover {
+    color: #ff5100;
+    background-color: #f8f9fa;
+    border: none;
+    font-weight: bold;
+    transform: scale(1.05);
+  }
 }
 
 /* Card Styles */
@@ -481,37 +571,12 @@ a:hover {
   font-weight: bold;
   color: #ff5100;
   background: #fff;
-  /* transition: all 0.5s; */
   border: 1px solid #ff5100;
 }
 
 .bukka-card-text {
   flex-grow: 1;
 }
-
-/* .card-container {
-  display: block;
-  width: auto;
-  height: auto;
-}
-
-.card-img,
-.card-img-top {
-  height: 200px;
-}
-
-.bukka-card {
-  display: inline-block;
-  margin: 1%;
-  margin-left: 2%;
-  margin-right: 1%;
-  width: 22%;
-  height: auto;
-}
-
-.card-btn {
-  margin-left: 36%;
-  /* margin-top: 90%; */
 
 .bukka-details {
   width: 90%;
@@ -520,6 +585,17 @@ a:hover {
 
 .restaurant-list-details {
   list-style-type: none;
+}
+
+.view-restaurants {
+  display: inline;
+  color: #ff5100;
+  text-align: left !important;
+}
+
+.view-restaurants:hover {
+  color: #ff5100;
+  transform: scale(1.05);
 }
 
 /* Restaurant Area styles */
