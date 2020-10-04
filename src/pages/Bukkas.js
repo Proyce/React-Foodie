@@ -72,25 +72,25 @@ const Bukkas = () => {
             of Good and Evil) by Cicero, written in 45 BC. This book is a
             treatise on the theory of ethics, very popular during the
             Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..", comes from a line in section 1.10.32. <br/>
-            <b>Menu</b>: <br/>Contrary to popular
-            belief, Lorem Ipsum is not simply random text. It has roots in a
-            piece of classical Latin literature from 45 BC, making it over 2000
-            years old. Richard McClintock, a Latin professor at Hampden-Sydney
-            College in Virginia, looked up one of the more obscure Latin words,
-            consectetur, from a Lorem Ipsum passage, and going through the cites
-            of the word in classical literature, discovered the undoubtable
-            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-            Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
-            Cicero, written in 45 BC. This book is a treatise on the theory of
-            ethics, very popular during the Renaissance. The first line of Lorem
-            Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
-            1.10.32.
+            amet..", comes from a line in section 1.10.32. <br />
+            <b>Menu</b>: <br />
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word in classical literature,
+            discovered the undoubtable source. Lorem Ipsum comes from sections
+            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a
+            treatise on the theory of ethics, very popular during the
+            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+            amet..", comes from a line in section 1.10.32.
           </p>
         </section>
         <section className="bottom-bukka mt-50">
-          <section className="jumbotron">
-            <h2 className="text-danger center mb-25">Nearby Restaurants</h2>
+          <h2 className="text-danger center mb-25">Nearby Restaurants</h2>
+          <section className="bukka-card-container">
             <BukkaCards
               name="Panarottis Restaurant"
               image={foodImg}
@@ -119,24 +119,9 @@ const Bukkas = () => {
               reviews="50 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
               stars="★★★★★"
             />
-            {/* <BukkaCards
-              name="Dorinda Fast Food"
-              image={foodImg}
-              location="H518, Road 3, Ikota Shopping Complex Ikota Shopping Complex, Vgc, Lekki, Lagos "
-              reviews="30 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-              stars="★★★★☆"
-            />
-            <BukkaCards
-              name="Doole Bukka Joint"
-              image={foodImg}
-              location="10 Oladipo Dunmoye Street, Oke-Ira, off Ajah-Addoh Road, Eti-Osa 101245, Lekki "
-              reviews="508 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-              stars="★★★☆☆"
-            /> */}
           </section>
         </section>
       </main>
-
       <Footer />
     </>
   );

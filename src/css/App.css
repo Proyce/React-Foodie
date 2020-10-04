@@ -399,12 +399,16 @@ a:hover {
   font-size: 40px;
   font-weight: 900;
   color: #ffffff;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 .home-header-text-2 {
   font-size: 25px;
   font-weight: 900;
   color: #ffffff;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 .search-section {
@@ -600,17 +604,20 @@ a:hover {
 
 /* Restaurant Area styles */
 
-.area-section {
-  display: inline-block !important;
-  width: 31%;
+.area-home {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: space-evenly;
   height: auto;
-  margin: 0 1%;
+  margin-bottom: 50px;
 }
 
-.area-home {
-  width: 100%;
+.area-section {
+  display: inline-block !important;
+  width: 400px;
   height: auto;
-  padding-left: 2%;
+  margin: 10px auto;
 }
 
 .area-section-details {
@@ -622,15 +629,38 @@ a:hover {
     -1px -1px 0 #000;
 }
 
+.area-section-details h5 {
+  font-size: 32px;
+}
+
+.area-section-details p {
+  font-size: 24px;
+}
+
 .area-section-img {
-  width: 95%;
+  width: 100%;
   height: 200px;
   border-radius: 5px;
+}
+
+.view-cities a {
+  color: #ff5100;
+  text-align: center;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  /* margin-right: 50px !important; */
+}
+
+.view-cities:hover {
+  color: #ff5100;
+  /* transform: scale(1.05) !important; */
 }
 
 /* Footer styles */
 
 .footer {
+  display: flex;
+  align-content: center;
   width: 100%;
   height: auto;
   color: #ffffff;
@@ -640,6 +670,7 @@ a:hover {
 .footer-text {
   display: inline-block;
   margin: 50px auto;
+  text-align: center;
 }
 
 /* Bukka Page Styles */
@@ -657,8 +688,4 @@ a:hover {
 .bottom-bukka {
   width: auto;
   height: auto;
-}
-
-.jumbotron {
-  margin-bottom: 0;
 }

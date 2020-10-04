@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Home from "../pages/Home";
+import BukkaLocation from "../pages/BukkaLocation";
 import { Route, Switch } from "react-router-dom";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
@@ -16,6 +17,7 @@ class App extends Component {
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/bukkas" component={Bukkas} />
+          <Route path="/bukkalocation" component={BukkaLocation} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/error" component={Error} />

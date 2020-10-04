@@ -21,7 +21,7 @@ const Home = () => {
     <>
       <Navbar />
       <HomeHeader />
-      <h2 className="center mt-50 mb-15">Featured Restaurants</h2>
+      <h2 className="ml-50 mt-50 mb-15">Featured Restaurants</h2>
       <section className="bukka-card-container">
         <BukkaCards
           name="Iya Basira restaurant"
@@ -131,14 +131,13 @@ const Home = () => {
           type="Mama Put Bukka"
           price="N300"
         />
-
-        <Link to="/bukkas" className="view-restaurants xtreme-bold text-right">
-          View all restaurants
-        </Link>
       </section>
+      <Link to="/bukkas" className="view-restaurants xtreme-bold text-right">
+        View all restaurants
+      </Link>
 
       <section>
-        <h2 className="text-danger center mt-50 mb-50">Featured Areas</h2>
+        <h2 className="text-left ml-50 mt-50 mb-25">Featured Areas</h2>
       </section>
 
       <section className="area-home">
@@ -209,10 +208,17 @@ const Home = () => {
 
       <Link
         to="/bukkainareas"
-        className="nav-link text-danger xtreme-bold text-right mr-50 mb-50"
+        className="view-restaurants xtreme-bold text-right"
       >
         View all Cities
       </Link>
+
+      {/* <Link
+        to="/bukkainareas"
+        className="view-cities xtreme-bold text-right mb-50"
+      >
+        View all Cities
+      </Link> */}
       <Footer />
     </>
   );
