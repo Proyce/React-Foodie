@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import BukkaCards from "../components/BukkaCards";
-import BootstrapCarousel from "../components/BootstrapCarousel";
+import BukkaCarousel from "../components/BukkaCarousel";
 import Footer from "../components/Footer";
 import foodImg from "../images/foodbukka-2.jpg";
 
@@ -16,7 +16,7 @@ const Bukkas = () => {
           <h2 className="text-danger mt-50 ml-50 mb-50 center">
             Iya Basira Restaurant
           </h2>
-          <BootstrapCarousel />
+          <BukkaCarousel />
         </section>
         <section className="right right-bukka center mt-50 text-danger">
           <h2 className="center text-center d-block mb-50">
