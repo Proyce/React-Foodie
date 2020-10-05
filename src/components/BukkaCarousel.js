@@ -7,7 +7,7 @@ import iyabasira3 from "../images/fried-rice.jpg";
 
 const BukkaCarousel = () => {
   return (
-    <div class="carousel-wrapper">
+    <div className="carousel-wrapper">
       <Carousel infiniteLoop useKeyboardArrows autoPlay>
         <div>
           <img src={iyabasira} alt="carousel-img" />

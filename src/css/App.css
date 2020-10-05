@@ -675,17 +675,103 @@ a:hover {
 
 /* Bukka Page Styles */
 
+.bukka-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .left-bukka {
-  width: 650px;
+  width: 500px;
   height: auto;
-  padding: 0 auto;
 }
 
 .right-bukka {
-  width: 700px;
+  width: 500px;
+}
+
+.bukka-details {
+  flex-grow: 1;
+  padding: 0 10%;
 }
 
 .bottom-bukka {
   width: auto;
   height: auto;
+}
+
+iframe {
+  margin-top: 25px;
+}
+
+.bukka-reservations {
+  margin-left: 100px;
+  text-align: start;
+}
+
+.bukka-price {
+  /* padding: 15px 20px; */
+  display: block;
+  padding-top: 10px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  background: #ff5100;
+}
+
+@media all and (max-width: 1020px) {
+  .left-bukka {
+    width: 350px;
+    height: auto;
+  }
+
+  .right-bukka {
+    width: 350px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .bukka-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .left-bukka {
+    width: 70%;
+    height: auto;
+  }
+
+  .right-bukka {
+    width: 90%;
+  }
+
+  .bukka-details {
+    flex-grow: 1;
+    padding: 0 10%;
+  }
+}
+
+@media all and (max-width: 799px) and (min-width: 701px) {
+  .left-bukka {
+    width: 45%;
+    height: auto;
+  }
+
+  .right-bukka {
+    width: 45%;
+  }
+
+  iframe {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 350px) {
+  iframe {
+    width: 200px;
+    height: 200px;
+  }
 }
