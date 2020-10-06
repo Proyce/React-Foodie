@@ -15,6 +15,15 @@ import owerri from "../images/owerri-nigeria.jpg";
 import ph from "../images/port-harcourt-nigeria.jpg";
 import enugu from "../images/enugu.jpg";
 import vi from "../images/vi-lagos.jpg";
+import friedRice from "../images/fried-rice.jpg";
+import amalaImg from "../images/amala-naija.jpg";
+import foodChaw from "../images/food-chaw.jpg";
+import suyaImg from "../images/naija-suya.jpg";
+import mamaPut from "../images/mama-put.jpg";
+import riceImg from "../images/nigerian-egg-fried-rice.jpg";
+import foodImg2 from "../images/image-food.jpg";
+import foodImg3 from "../images/foodplace.jpg";
+import foodImg4 from "../images/foodcafe.png";
 
 const Home = () => {
   return (
@@ -34,7 +43,7 @@ const Home = () => {
         />
         <BukkaCards
           name="The Food Place"
-          image={foodImg}
+          image={foodImg3}
           location="No 1, Addo Road, Ajah Roundabout, Ajah, Eti-Osa, Lagos Nigeria. No 1, Addo Road, Ajah Roundabout, Ajah, Eti-Osa, Lagos Nigeria."
           reviews="507 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
           stars="★★☆☆☆"
@@ -43,7 +52,7 @@ const Home = () => {
         />
         <BukkaCards
           name="Mama Ebuka Restaurants"
-          image={foodImg}
+          image={mamaPut}
           location="Located at Shop 4 Imo 1 Plaza, Ado Road, Ajah, Lagos"
           reviews="570 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
           stars="★★★★☆"
@@ -52,7 +61,7 @@ const Home = () => {
         />
         <BukkaCards
           name="Iyanla Catering Services"
-          image={foodImg}
+          image={foodImg2}
           location="Block D Hse 19b Abraham Adesanya Estate, Ajah, Lagos Nigeria"
           reviews="438 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
           stars="★☆☆☆☆"
@@ -69,17 +78,17 @@ const Home = () => {
           price="N200"
         />
         <BukkaCards
-          name="Morris Beer Joint"
-          image={foodImg}
+          name="Amala Shitta"
+          image={amalaImg}
           location="Located at 50 Addo Road, Ajah, Lekki-Ajah Lagos Nigeria"
           reviews="500 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
           stars="★★★★☆"
-          type="Beer Joint"
+          type="Amala Joint"
           price="N500"
         />
         <BukkaCards
           name="Panarottis Restaurant"
-          image={foodImg}
+          image={friedRice}
           location="Panarottis Restaurant, 20 Langbasa Road, Ajah, Lagos"
           reviews="3637 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
           stars="★★★☆☆"
@@ -88,7 +97,7 @@ const Home = () => {
         />
         <BukkaCards
           name="Mallam Musa Suleiman Yaguda Suya Jointt"
-          image={foodImg}
+          image={suyaImg}
           location="Cardinal Anthony Olubunmi Okogie Rd Shop C42, Lekki-Ajah"
           reviews="450 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
           stars="★★★★★"
@@ -115,7 +124,7 @@ const Home = () => {
         />
         <BukkaCards
           name="Dorinda Fast Food"
-          image={foodImg}
+          image={foodChaw}
           location="H518, Road 3, Ikota Shopping Complex, Vgc, Lekki, Lagos "
           reviews="30 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
           stars="★★★★☆"
@@ -124,7 +133,7 @@ const Home = () => {
         />
         <BukkaCards
           name="Doole Bukka Joint"
-          image={foodImg}
+          image={riceImg}
           location="10 Oladipo Dunmoye Srt, Oke-Ira, off Ajah-Addoh Road, Lekki, Lagos"
           reviews="508 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
           stars="★★★☆☆"

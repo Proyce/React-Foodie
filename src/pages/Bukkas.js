@@ -5,6 +5,15 @@ import BukkaCards from "../components/BukkaCards";
 import BukkaCarousel from "../components/BukkaCarousel";
 import Footer from "../components/Footer";
 import foodImg from "../images/foodbukka-2.jpg";
+import friedRice from "../images/fried-rice.jpg";
+import amalaImg from "../images/amala-naija.jpg";
+import foodChaw from "../images/food-chaw.jpg";
+import suyaImg from "../images/naija-suya.jpg";
+import mamaPut from "../images/mama-put.jpg";
+import riceImg from "../images/nigerian-egg-fried-rice.jpg";
+import foodImg2 from "../images/image-food.jpg";
+import foodImg3 from "../images/foodplace.jpg";
+import foodImg4 from "../images/foodcafe.png";
 
 const Bukkas = () => {
   return (
