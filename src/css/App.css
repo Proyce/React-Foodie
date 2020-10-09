@@ -90,6 +90,19 @@ a:hover {
   margin-bottom: 50px;
 }
 
+.pl-50 {
+  padding-left: 50px;
+}
+.pr-50 {
+  padding-right: 50px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+
 .bold {
   font-weight: 900;
 }
@@ -106,6 +119,10 @@ a:hover {
 
 .red {
   color: #ff0000;
+}
+
+.bukka-color {
+  color: #ff5100;
 }
 
 .no-outline {
@@ -514,6 +531,67 @@ a:hover {
   }
 }
 
+/* How It Works */
+.how-header {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.how-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.how-text {
+  font-size: 25px;
+  color: #333333;
+  margin: 25px;
+}
+
+.how-icons {
+  /* font-size: 25px; */
+}
+
+@media all and (max-width: 950px) {
+  .how-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-basis: 75%; */
+    justify-content: space-evenly;
+    margin: 1rem;
+  }
+
+  .how-item {
+    margin: 1.5rem;
+  }
+
+  .how-text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .feat-bukka-head {
+    margin-top: 5px !important;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .how-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+  .how-item {
+    margin: 1rem;
+  }
+
+  .feat-bukka-head {
+    margin-top: 5px !important;
+  }
+}
 /* Card Styles */
 
 .bukka-card-container {
@@ -600,6 +678,10 @@ a:hover {
 .view-restaurants:hover {
   color: #ff5100;
   transform: scale(1.05);
+}
+
+.card-bg {
+  background: #efefef;
 }
 
 /* Restaurant Area styles */

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import HomeHeader from "../components/HomeHeader";
+import HowItWorks from "../components/HowItWorks";
 import BukkaCards from "../components/BukkaCards";
 import AreaCards from "../components/AreaCards";
 import Footer from "../components/Footer";
@@ -23,14 +24,16 @@ import mamaPut from "../images/mama-put.jpg";
 import riceImg from "../images/nigerian-egg-fried-rice.jpg";
 import foodImg2 from "../images/image-food.jpg";
 import foodImg3 from "../images/foodplace.jpg";
-import foodImg4 from "../images/foodcafe.png";
+// import foodImg4 from "../images/foodcafe.png";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <HomeHeader />
-      <h2 className="ml-50 mt-50 mb-15">Featured Restaurants</h2>
+      <HowItWorks/>
+      <section className="card-bg">
+      <h2 className="pt-50 mt-25 mb-15 center feat-bukka-head">Featured Restaurants</h2>
       <section className="bukka-card-container">
         <BukkaCards
           name="Iya Basira restaurant"
@@ -140,6 +143,7 @@ const Home = () => {
           type="Mama Put Bukka"
           price="N300"
         />
+      </section>
       </section>
       <Link to="/bukkas" className="view-restaurants xtreme-bold text-right">
         View all restaurants
