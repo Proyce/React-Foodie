@@ -65,6 +65,19 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.pl-10 {
+  padding-left: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+
 .ml-25 {
   margin-left: 25px;
 }
@@ -77,6 +90,20 @@ a:hover {
 .mb-25 {
   margin-bottom: 25px;
 }
+
+.pl-25 {
+  padding-left: 25px;
+}
+.pr-25 {
+  padding-right: 25px;
+}
+.pt-25 {
+  padding-top: 25px;
+}
+.pb-25 {
+  padding-bottom: 25px;
+}
+
 .ml-50 {
   margin-left: 50px;
 }
@@ -529,6 +556,17 @@ a:hover {
     font-weight: bold;
     transform: scale(1.05);
   }
+}
+
+/* Bukka Icons */
+
+.icon-para {
+  position: relative;
+}
+
+.bukka-icons {
+  position: relative;
+  top: 5px;
 }
 
 /* How It Works */

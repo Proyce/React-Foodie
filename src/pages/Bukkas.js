@@ -14,6 +14,16 @@ import riceImg from "../images/nigerian-egg-fried-rice.jpg";
 import foodImg2 from "../images/image-food.jpg";
 import foodImg3 from "../images/foodplace.jpg";
 import foodImg4 from "../images/foodcafe.png";
+import { MdLocationOn } from "react-icons/md";
+import { FaMoneyBill } from "react-icons/fa";
+import { IoMdRestaurant } from "react-icons/io";
+import { FaRestroom } from "react-icons/fa";
+import { FaPhoneSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FcRating } from "react-icons/fc";
+import { IoIosTime } from "react-icons/io";
+import { FaCar } from "react-icons/fa";
+import { FaChair } from "react-icons/fa";
 
 const Bukkas = () => {
   return (
@@ -31,8 +41,8 @@ const Bukkas = () => {
             <section className="bukka-reservations">
               <h3 className="bukka-reservations-text bukka-price">Price: From N300. </h3>
               <h3 className="bukka-reservations-text">Price depends on food and quantity. </h3>
-              <h3 className="bukka-reservations-text">Phone Number: &nbsp;08139844222</h3>
-              <h3 className="bukka-reservations-text">Email: &nbsp;ibasira-ng@gmail.com</h3>
+              <h3 className="bukka-reservations-text"><FaPhoneSquare size="1.2rem" className="bukka-icons mr-10 bukka-color" />Phone: &nbsp;08139844222</h3>
+              <h3 className="bukka-reservations-text"><MdEmail size="1.2rem" className="bukka-icons mr-10 bukka-color" />Email: &nbsp;ibasira-ng@gmail.com</h3>
             </section>
             <section>
               <iframe
@@ -52,37 +62,37 @@ const Bukkas = () => {
             <h2 className="text-left mb-25 mt-25">Restaurants Details</h2>
             <ul className="text-left mb-25">
               <li className="restaurant-list-details">
-                <b>Reviews & Rating:&nbsp;</b> ★★★★☆ (8765 reviews)
+                <b><FcRating size="1.2rem" className="bukka-icons mr-10 bukka-color" />Reviews & Rating:&nbsp;</b> ★★★★☆ (8765 reviews)
               </li>
               <li className="restaurant-list-details">
-                <b>Location:&nbsp;</b> No 1, signboard bus stop, Addo-Badore
+                <b><MdLocationOn size="1.2rem" className="bukka-icons mr-10 bukka-color" />Location:&nbsp;</b> No 1, signboard bus stop, Addo-Badore
                 Road. Opposite Harvest Bakery, Ajah, Lagos.
               </li>
               <li className="restaurant-list-details">
-                <b>Restaurant Type:&nbsp;</b>Local Bukka
+                <b><IoMdRestaurant size="1.2rem" className="bukka-icons mr-10 bukka-color" />Restaurant Type:&nbsp;</b>Local Bukka
               </li>
               <li className="restaurant-list-details">
-                <b>Cost:&nbsp;</b> From N300
+                <b><FaMoneyBill size="1.2rem" className="bukka-icons mr-10 bukka-color" />Cost:&nbsp;</b> From N300
               </li>
               <li className="restaurant-list-details">
-                <b>Capacity&nbsp;</b> 15 tables
+                <b><FaChair size="1.2rem" className="bukka-icons mr-10 bukka-color" />Capacity&nbsp;</b> 15 tables
               </li>
               <li className="restaurant-list-details">
-                <b>Hours of operation&nbsp;</b> <br />
+                <b><IoIosTime size="1.2rem" className="bukka-icons mr-10 bukka-color" />Hours of operation&nbsp;</b> <br />
                 Mon–Fri :00 pm–1:00 am <br /> Sat 12:00 pm–1:30 am <br /> Sun
                 1:00 pm–12:00 am
               </li>
               <li className="restaurant-list-details">
-                <b>Phone Number&nbsp;</b>08139844222
+                <b><FaPhoneSquare size="1.2rem" className="bukka-icons mr-10 bukka-color" />Phone Number&nbsp;</b>08139844222
               </li>
               <li className="restaurant-list-details">
-                <b>Email:</b> &nbsp;ibasira-ng@gmail.com
+                <b><MdEmail size="1.2rem" className="bukka-icons mr-10 bukka-color" />Email:</b> &nbsp;ibasira-ng@gmail.com
               </li>
               <li className="restaurant-list-details">
-                <b>Parking?&nbsp;</b> No
+                <b><FaCar size="1.2rem" className="bukka-icons mr-10 bukka-color" />Parking?&nbsp;</b> No
               </li>
               <li className="restaurant-list-details">
-                <b>Restroom?&nbsp;</b> Yes
+                <b><FaRestroom size="1.2rem" className="bukka-icons mr-10 bukka-color" />Restroom?&nbsp;</b> Yes
               </li>
             </ul>
             <p>
@@ -120,25 +130,13 @@ const Bukkas = () => {
           <h2 className="text-danger center mb-25">Nearby Restaurants</h2>
           <section className="bukka-card-container">
             <BukkaCards
-              name="Panarottis Restaurant"
-              image={foodImg}
-              location="Panarottis Restaurant, 20 Langbasa Road, Ajah, Lagos"
-              reviews="3637 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-              stars="★★★☆☆"
-            />
-            <BukkaCards
-              name="Mallam Yaguda Suya Joint"
-              image={foodImg}
-              location="Cardinal Anthony Olubunmi Okogie Rd Shop C42, Lekki-Ajah"
-              reviews="450 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
-              stars="★★★★★"
-            />
-            <BukkaCards
               name="Iya Tunde Bole Joint"
               image={foodImg}
               location="Lekki-Epe Expressway, 5th Roundabout Circle Mall, Ajah Lagos "
               reviews="5000 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
               stars="★★★☆☆"
+              type="Bole (Nigerian Roasted Plantain)"
+              price="N300"
             />
             <BukkaCards
               name="Chris Shawarma Place"
@@ -146,6 +144,26 @@ const Bukkas = () => {
               location="Shop C41, Lekki Mall, Ibeju Lekki Express, Lekki Lagos"
               reviews="50 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
               stars="★★★★★"
+              type="Sharwarma"
+              price="N1000"
+            />
+            <BukkaCards
+              name="Dorinda Fast Food"
+              image={foodChaw}
+              location="H518, Road 3, Ikota Shopping Complex, Vgc, Lekki, Lagos "
+              reviews="30 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+              stars="★★★★☆"
+              type="Fast Food"
+              price="N750"
+            />
+            <BukkaCards
+              name="Doole Bukka Joint"
+              image={riceImg}
+              location="10 Oladipo Dunmoye Srt, Oke-Ira, off Ajah-Addoh Road, Lekki, Lagos"
+              reviews="508 reviews &nbsp;&nbsp;&nbsp;&nbsp;"
+              stars="★★★☆☆"
+              type="Mama Put Bukka"
+              price="N300"
             />
           </section>
         </section>
