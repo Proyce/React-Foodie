@@ -9,6 +9,7 @@ import Error from "../pages/Error";
 import Featured from "../pages/Featured";
 import Signin from "../pages/Signin";
 import Signup from "../pages/Signup";
+import Search from "../pages/Search";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/bukkas/" component={Bukkas} />
+          <Route path="/search/" component={Search} />
           <Route path="/bukkalocation" component={BukkaLocation} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { MdLocationOn } from "react-icons/md";
 import { GiMoneyStack } from "react-icons/gi";
 import { IoMdRestaurant } from "react-icons/io";
@@ -7,9 +8,9 @@ const BukkaCards = ({ image, name, location, type, reviews, stars, price }) => {
   return (
     <>
       <section className="bukka-card">
-        <img alt="bukka-card-img" src={image} />
+        <Link to="/"><img alt="bukka-card-img" src={image} /> </Link>
         <section className="bukka-card-text ml-10 mr-10 mt-10 mb-10">
-          <h3 className="center mb-10 bukka-card-header">{name}</h3>
+          <Link to="/"><h3 className="center mb-10 bukka-card-header">{name}</h3></Link>
           <p className="icon-para">
             <MdLocationOn size="1.2rem" className="bukka-icons mr-10 bukka-color"/>
             {location}

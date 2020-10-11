@@ -14,9 +14,9 @@ const HomeHeader = () => {
               good hands
             </h4>
             <br />
-            <input
+            <input 
               type="search"
-              name="restaurant-search"
+              name="restaurant-search" 
               placeholder="Restaurants, Fried rice, Suya, Lagos, Palm wine, Suya, Sharwarma and more "
               className="header-search"
             />
