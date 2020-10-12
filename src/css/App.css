@@ -797,15 +797,25 @@ a:hover {
   list-style-type: none;
 }
 
-.view-restaurants {
-  display: inline;
+.view-all {
   color: #ff5100;
-  text-align: left !important;
+  text-align: center !important;
 }
 
-.view-restaurants:hover {
+.view-all:hover {
   color: #ff5100;
-  transform: scale(1.05);
+  transform: scale(0.95);
+}
+
+.view-all-child {
+  display: inline;
+  color: #ff5100;
+  text-align: center !important;
+}
+
+.view-all-child:hover {
+  color: #ff5100;
+  transform: scale(0.95);
 }
 
 .card-bg {
@@ -840,7 +850,6 @@ a:hover {
   flex-basis: 100%;
   justify-content: space-evenly;
   height: auto;
-  margin-bottom: 50px;
 }
 
 .area-section {
@@ -1114,3 +1123,52 @@ input[type="checkbox" i] {
   }
 }
 /* Form Ends */
+
+/* Dashboard Begins */
+.dashboard-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.dashboard-nav {
+  background: #f13b03e7;
+  width: 12rem;
+
+  /* position: fixed; */
+}
+
+.dashboard-main {
+  background: #eeeeee;
+  width: 100%;
+}
+
+.dash-nav {
+  margin: 25px;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.dashboard-content {
+  background: #e2e0e0;
+}
+
+.dashboard-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+
+.dashboard-cards {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #ff5100;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+/* Dashboard Ends */

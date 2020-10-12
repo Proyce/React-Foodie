@@ -10,6 +10,13 @@ import Featured from "../pages/Featured";
 import Signin from "../pages/SignIn";
 import Signup from "../pages/SignUp";
 import Search from "../pages/Search";
+import Dashboard from "../pages/Dashboard";
+import DashboardBukkas from "../pages/DashboardBukkas";
+import DashboardUsers from "../pages/DashboardUsers";
+import DashboardMenus from "../pages/DashboardMenus";
+import DashboardDeliveries from "../pages/DashboardDeliveries";
+import DashboardAnalytics from "../pages/DashboardAnalytics";
+import DashboardLocations from "../pages/DashboardLocations";
 
 class App extends Component {
   render() {
@@ -26,6 +33,13 @@ class App extends Component {
           <Route path="/featured" component={Featured} />
           <Route path="/signin" component={Signin} />
           <Route path="/signup" component={Signup} />
+          <Route path="/dashboard/" component={Dashboard} />
+          <Route path="/dashboard-bukkas" component={DashboardBukkas} />
+          <Route path="/dashboard-users" component={DashboardUsers} />
+          <Route path="/dashboard-menus" component={DashboardMenus} />
+          <Route path="/dashboard-deliveries" component={DashboardDeliveries} />
+          <Route path="/dashboard-locations" component={DashboardLocations} />
+          <Route path="/dashboard-analytics" component={DashboardAnalytics} />
         </Switch>
       </section>
     );

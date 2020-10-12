@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import BukkaCards from "../components/BukkaCards";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import foodImg from "../images/foodbukka-2.jpg";
 
 const BukkaLocation = () => {
