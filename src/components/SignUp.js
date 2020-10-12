@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import "../css/b.css";
+import "../css/bootstrap.min.css";
 import "../css/App.css";
 
 const SignUp = () => {

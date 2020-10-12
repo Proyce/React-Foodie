@@ -7,8 +7,8 @@ import Contact from "../pages/Contact";
 import Bukkas from "../pages/Bukkas";
 import Error from "../pages/Error";
 import Featured from "../pages/Featured";
-import Signin from "../pages/Signin";
-import Signup from "../pages/Signup";
+import Signin from "../pages/SignIn";
+import Signup from "../pages/SignUp";
 import Search from "../pages/Search";
 
 class App extends Component {

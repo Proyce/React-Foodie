@@ -1,3 +1,6 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
 /* Generic styles */
 * {
   margin: 0;
@@ -6,6 +9,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Times New Roman" !important;
 }
 a:hover {
   text-decoration: none !important;
@@ -657,6 +661,10 @@ a:hover {
   justify-content: space-evenly;
 }
 
+.how-item:hover {
+  transform: scale(0.9);
+}
+
 .how-text {
   font-size: 25px;
   color: #333333;
@@ -667,7 +675,7 @@ a:hover {
   /* font-size: 25px; */
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 750px) {
   .how-container {
     display: flex;
     flex-wrap: wrap;
@@ -690,7 +698,7 @@ a:hover {
   }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 400px) {
   .how-container {
     display: flex;
     flex-wrap: wrap;
@@ -779,6 +787,7 @@ a:hover {
   flex-grow: 1;
 }
 
+/* Bukka Details */
 .bukka-details {
   width: 90%;
   margin: 10px auto;
@@ -801,6 +810,26 @@ a:hover {
 
 .card-bg {
   background: #efefef;
+}
+
+.restaurant-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.restaurant-details-item {
+  display: inline-block;
+  width: 25rem;
+}
+
+.phone-email-link {
+  color: #000000;
+}
+
+.phone-email-link:hover {
+  color: #000000;
 }
 
 /* Restaurant Area styles */
@@ -976,3 +1005,112 @@ iframe {
     height: 200px;
   }
 }
+
+/* Form Styles */
+
+.form-container {
+  height: auto;
+  width: 40%;
+  margin: 50px auto;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.form {
+  outline: #ff5100;
+  border: 1px solid #ff5100;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #ff5100;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #ff5100 !important;
+  border-color: #ff5100 !important;
+}
+
+.btn-danger:hover {
+  color: #ff5100 !important;
+  background-color: #fff !important;
+  border-color: #ff5100 !important;
+}
+
+.form-control:focus {
+  border-color: #ff5100 !important;
+  box-shadow: 0 0 0 1px rgb(243, 92, 5);
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #ff5100 !important;
+  background-color: #ff5100 !important;
+  outline: #ff5100 !important;
+}
+
+input[type="checkbox" i] {
+  background-color: #ff5100 !important;
+  cursor: default;
+  appearance: checkbox;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+
+@media all and (max-width: 1000px) {
+  .form-container {
+    height: auto;
+    width: 50%;
+    margin: 50px auto;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .form-container {
+    height: auto;
+    width: 70%;
+    margin: 50px auto;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+  }
+  .form {
+    padding: 35px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .form-container {
+    height: auto;
+    width: 90%;
+    margin: 50px auto;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+  }
+  .form {
+    padding: 20px;
+  }
+}
+/* Form Ends */
