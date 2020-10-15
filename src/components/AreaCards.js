@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const AreaCards = ({cityUrl,image,city,number}) => {
     return (
         <>
-            <section class="area-section">
+            <section className="area-section">
                 <Link to={cityUrl} style={{ textDecoration: 'none' }}>
                     <img alt="city-img" src={image} className="area-section-img" />
                     <section className="area-section-details">

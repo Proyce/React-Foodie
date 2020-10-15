@@ -1,6 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-const HomeHeader = () => {
+const HomeHeader = (props) => {
+  const [entry, setEntry] = useState(props.entry || "");
+
+  function submitSearch(e) {
+    if(typeof props.search === "function"){
+      props.search(entry);
+    }
+    console.log(entry);
+    e.preventDefault();
+  }
     return (
       <>
         <section className="home-header">
@@ -14,7 +23,9 @@ const HomeHeader = () => {
               good hands
             </h4>
             <br />
-            <input 
+            <form onSubmit={submitSearch}>
+              <input 
+              onChange= {(e) => setEntry(e.target.value)}
               type="search"
               name="restaurant-search" 
               placeholder="Restaurants, Fried rice, Suya, Lagos, Palm wine, Suya, Sharwarma and more "
@@ -23,6 +34,7 @@ const HomeHeader = () => {
             <button className="btn btn-outline-light btn-lg" type="submit">
               Find Now
             </button>
+            </form>
           </section>
         </section>
       </>
