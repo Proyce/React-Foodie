@@ -6,14 +6,19 @@ import foodImg from "../images/foodbukka-2.jpg";
 import foodChaw from "../images/food-chaw.jpg";
 import riceImg from "../images/nigerian-egg-fried-rice.jpg";
 
-const Search = () => {
+const Search = (props) => {
+
+    // const {entry} = useReactRouter();
+    // const params = new URLSearchParams(entry.search);
+    // const entryParam = params.get('find_desc');
+
     return (
         <>
           <Navbar/>  
 
           <section className="search-card-container">
                 <section className="search-card-wrapper">
-                    <h3 className="search-header">Showing search results for Rice</h3>
+                    <h3 className="search-header">Showing search results for {props.entry}</h3>
                     <SearchCards
                         name="Doole Bukka Joint"
                         image={riceImg}

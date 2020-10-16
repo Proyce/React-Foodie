@@ -1,15 +1,16 @@
 import React, {useState} from 'react';
+// import useReactRouter from "use-react-router";
 
 const HomeHeader = (props) => {
   const [entry, setEntry] = useState(props.entry || "");
 
-  function submitSearch(e) {
+  function search(e) {
     if(typeof props.search === "function"){
       props.search(entry);
     }
-    console.log(entry);
     e.preventDefault();
   }
+
     return (
       <>
         <section className="home-header">
@@ -23,7 +24,7 @@ const HomeHeader = (props) => {
               good hands
             </h4>
             <br />
-            <form onSubmit={submitSearch}>
+            <form onSubmit={search}>
               <input 
               onChange= {(e) => setEntry(e.target.value)}
               type="search"

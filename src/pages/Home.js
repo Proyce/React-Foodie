@@ -24,13 +24,20 @@ import mamaPut from "../images/mama-put.jpg";
 import riceImg from "../images/nigerian-egg-fried-rice.jpg";
 import foodImg2 from "../images/image-food.jpg";
 import foodImg3 from "../images/foodplace.jpg";
-// import foodImg4 from "../images/foodcafe.png";
+import useReactRouter from "use-react-router";
 
 const Home = () => {
+
+  const {history} = useReactRouter();
+
+  function search(entry) {
+    const urlEncodedEntry = encodeURI(entry);
+    history.push(`/search?find_desc=${urlEncodedEntry}`);
+  }
   return (
     <>
       <Navbar />
-      <HomeHeader />
+      <HomeHeader search={search}/>
       <HowItWorks />
       <section className="card-bg">
         <h2 className="pt-50 mt-25 mb-15 center feat-bukka-head">

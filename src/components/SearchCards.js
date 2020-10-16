@@ -3,6 +3,7 @@ import { MdLocationOn } from "react-icons/md";
 import { GiMoneyStack } from "react-icons/gi";
 import { IoMdRestaurant } from "react-icons/io";
 import { Link } from "react-router-dom";
+// import useRestaurantSearch from "../components/API/useRestaurantSearch";
 
 
 const SearchCards = ({ image, name, location, type, reviews, stars, price }) => {

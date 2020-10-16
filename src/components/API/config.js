@@ -1,0 +1,1 @@
+export const API_URL = "http://restaurantlisting-env.eba-645emhwx.us-west-1.elasticbeanstalk.com/api/v1/";
