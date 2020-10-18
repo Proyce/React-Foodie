@@ -46,7 +46,7 @@ const AllBukkaCards = () => {
                   {restaurant.reviews}
                 </small>
               </section>
-              <a className="bukka-card-button block center" href={`/${restaurant.slug}`}>
+              <a className="bukka-card-button block center" href={`/restaurant/${restaurant.slug}`}>
                 See More Details
               </a>
              </section>

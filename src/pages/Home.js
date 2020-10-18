@@ -45,7 +45,7 @@ const Home = () => {
       </section>
 
       <h2 className="pt-50 mb-50 center feat-bukka-head">
-        Featured Cities
+        Featured Locations
       </h2>
 
       <section className="area-home">
@@ -54,69 +54,69 @@ const Home = () => {
           city="Abuja"
           number="1320 Restaurants"
           className="area-img"
-          cityUrl="/cities/"
+          cityUrl="/locations/"
         />
         <AreaCards
           image={lgImg}
           city="Lagos"
           number="13674 Restaurants"
           className="area-img"
-          cityUrl="/cities/"
+          cityUrl="/locations/"
         />
         <AreaCards
           image={ph}
           city="Port-Harcourt"
           number="1051 Restaurants"
           className="area-img"
-          cityUrl="/cities/"
+          cityUrl="/locations/"
         />
         <AreaCards
           image={vi}
           city="Victoria Island"
           number="197 Restaurants"
           className="area-img"
-          cityUrl="/cities/"
+          cityUrl="/locations/"
         />
         <AreaCards
           image={enugu}
           city="Enugu"
           number="324 Restaurants"
           className="area-img"
-          cityUrl="/cities/"
+          cityUrl="/locations/"
         />
         <AreaCards
           image={ikeja}
           city="Ikeja"
           number="572 Restaurants"
           className="area-img"
-          cityUrl="/cities/"
+          cityUrl="/locations/"
         />
         <AreaCards
           image={ajah}
           city="Ajah"
           number="208 Restaurants"
           className="area-img"
-          cityUrl="/cities/"
+          cityUrl="/locations/"
         />
         <AreaCards
           image={owerri}
           city="Owerri"
           number="176 Restaurants"
           className="area-img"
-          cityUrl="/cities/"
+          cityUrl="/locations/"
         />
         <AreaCards
           image={ikoyi}
           city="Ikoyi"
           number="180 Restaurants"
           className="area-img"
-          cityUrl="/cities/"
+          cityUrl="/locations/"
         />
       </section>
 
       <section className="view-all mb-25">
         <Link to="/bukkainareas" className="view-all-child xtreme-bold">
-          View all Cities
+          View all Locations
         </Link>
       </section>
       <Footer />
