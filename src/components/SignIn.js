@@ -20,6 +20,7 @@ const SignIn = () => {
               type="email"
               className="form-control"
               placeholder="Enter email"
+              required
             />
           </div>
 
@@ -29,6 +30,7 @@ const SignIn = () => {
               type="password"
               className="form-control"
               placeholder="Enter password"
+              required
             />
           </div>
 
@@ -38,6 +40,7 @@ const SignIn = () => {
                 type="checkbox"
                 className="custom-control-input"
                 id="customCheck1"
+                required
               />
               <label className="custom-control-label" htmlFor="customCheck1">
                 Remember me

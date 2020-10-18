@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MenuList = () => {
+const MenuCard = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const MenuList = () => {
     )
 }
 
-export default MenuList;
+export default MenuCard;

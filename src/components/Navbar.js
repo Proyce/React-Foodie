@@ -18,12 +18,18 @@ const Navbar = () => {
           <li className="item">
             <Link to="/contact">Contact</Link>
           </li>
-          <li className="item nav-button">
+          <li className="item">
+            <Link to="/allbukkas">Restaurants</Link>
+          </li>
+          <li className="item">
+            <Link to="/menus">Menus</Link>
+          </li>
+          {/* <li className="item nav-button">
             <Link to="/signup">Sign Up</Link>
           </li>
           <li className="item nav-button nav-secondary">
             <Link to="/signin">Sign In</Link>
-          </li>
+          </li> */}
           <li className="toggle">
             <span className="hamburger"></span>
           </li>
