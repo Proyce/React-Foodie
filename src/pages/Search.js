@@ -18,7 +18,7 @@ const Search = (props) => {
 
           <section className="search-card-container">
                 <section className="search-card-wrapper">
-                    <h3 className="search-header">Showing search results for {props.entry}</h3>
+                    <h3 className="search-header">Search results {props.entry}</h3>
                     <SearchCards
                         name="Doole Bukka Joint"
                         image={riceImg}
