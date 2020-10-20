@@ -1,9 +1,9 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import iyabasira from "../images/iyabasira.jpg";
-import iyabasira2 from "../images/iyabasira-2.jpg";
-import iyabasira3 from "../images/fried-rice.jpg";
+import iyabasira from "../images/foodplace.jpg";
+import iyabasira2 from "../images/foodbukka-background.jpg";
+import iyabasira3 from "../images/restaurant-cafe.jpg";
 
 const BukkaCarousel = () => {
   return (

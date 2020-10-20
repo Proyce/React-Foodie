@@ -22,7 +22,7 @@ const MenuCard = () => {
 
   return (
     <>
-      {menus.slice(0, 72).map((menu, index) => {
+      {menus.slice(0, 12).map((menu, index) => {
           return (
             <section className="bukka-card" key={index}>
               <img alt="bukka-card-img" src={menu.images[2]} />
@@ -32,18 +32,7 @@ const MenuCard = () => {
                   <IoMdRestaurant size="1.2rem" className="bukka-icons mr-10 bukka-color"/>
                   {menu.description}
                 </p>
-                {/* <p className="mt-10 mb-10 icon-para">
-                  <IoMdRestaurant size="1.2rem" className="bukka-icons mr-10 bukka-color" />
-                  {restaurant.restauranttype}
-                </p>
-                <p className="mb-10 icon-para">
-                  <GiMoneyStack size="1.2rem" className="bukka-icons mr-10 bukka-color" />
-                  From {restaurant.averagecost}
-                </p>
-                <p className="inline-block mr-10 bukka-card-rating"><FcRating size="1.2rem" className="bukka-icons mr-10 bukka-color" />★★★★☆</p>
-                <small className="inline-block bold bukka-card-rating">
-                  {restaurant.reviews}
-                </small> */}
+                
               </section>
               <a className="bukka-card-button block center" href="/menus">
                 View Restaurants

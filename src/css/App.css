@@ -835,7 +835,18 @@ a:hover {
 }
 
 .phone-email-link {
-  color: #000000;
+  display: block;
+  width: 250px;
+  height: 40px;
+  padding-top: 10px;
+  /* padding: 2px 2px !important; */
+  background: #ff5100;
+  text-align: center;
+  color: #ffffff;
+  /* margin: 10px auto; */
+  margin-bottom: 10px;
+  margin-left: 30px;
+  border-radius: 5px;
 }
 
 .phone-email-link:hover {

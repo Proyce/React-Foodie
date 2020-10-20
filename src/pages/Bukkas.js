@@ -4,9 +4,9 @@ import Header from "../components/Header";
 import BukkaCards from "../components/BukkaCards";
 import BukkaCarousel from "../components/BukkaCarousel";
 import Footer from "../components/Footer";
-import foodImg from "../images/foodbukka-2.jpg";
-import foodChaw from "../images/food-chaw.jpg";
-import riceImg from "../images/nigerian-egg-fried-rice.jpg";
+// import foodImg from "../images/foodbukka-2.jpg";
+// import foodChaw from "../images/food-chaw.jpg";
+// import riceImg from "../images/nigerian-egg-fried-rice.jpg";
 import { MdLocationOn } from "react-icons/md";
 import { FaMoneyBill } from "react-icons/fa";
 import { IoMdRestaurant } from "react-icons/io";
@@ -26,16 +26,16 @@ const Bukkas = () => {
       <main className="name">
         <section className="bukka-flex-container">
           <section className="left left-bukka mb-15">
-            <h2 className="mt-50 ml-50 mb-25 center">Iya Basira Restaurant</h2>
+            <h2 className="mt-50 ml-50 mb-25 center">Divine Restaurant</h2>
             <BukkaCarousel />
           </section>
-          <section className="right right-bukka center mt-25 mb-50">
+          <section className="right right-bukka center mt-25 mb-25">
             <h2 className="center mb-25 mt-25">For Reservations</h2>
             <section className="bukka-reservations">
               <h3 className="bukka-reservations-text bukka-price">Price: From N300. </h3>
               <h3 className="bukka-reservations-text">Price depends on food and quantity. </h3>
-              <h3 className="bukka-reservations-text"><FaPhoneSquare size="1.2rem" className="bukka-icons mr-10 bukka-color" />Phone: &nbsp;<a href="tel:08139844222" className="phone-email-link">08139844222</a></h3>
-              <h3 className="bukka-reservations-text"><MdEmail size="1.2rem" className="bukka-icons mr-10 bukka-color" /><a href="email:ibasira-ng@gmail.com" className="phone-email-link">ibasira-ng@gmail.com</a></h3>
+              <h3 className="bukka-reservations-text"> &nbsp;<a href="tel:08139844222" className="phone-email-link"><FaPhoneSquare size="1.2rem" className="bukka-icons mr-10" />08139844222</a></h3>
+              <h3 className="bukka-reservations-text"><a href="email:ibasira-ng@gmail.com" className="phone-email-link"><MdEmail size="1.2rem" className="bukka-icons mr-10" />ibasira-ng@gmail.com</a></h3>
             </section>
             <section>
               <iframe
@@ -52,14 +52,14 @@ const Bukkas = () => {
             </section>
           </section>
           <section className="clear bukka-details">
-          <h2 className="text-left mb-25 mt-25">Restaurants Details</h2>
-          <section restaurant-details-container>
+          <h2 className="center mb-25 mt-15">Restaurants Details</h2>
+          <section className="restaurant-details-container">
             <ul className="restaurant-details-item text-left mb-25">
               <li className="restaurant-list-details">
-                <b><FaPhoneSquare size="1.2rem" className="bukka-icons mr-10 bukka-color" />Phone Number&nbsp;</b><a href="tel:08139844222" className="phone-email-link">08139844222</a>
+                <b><FaPhoneSquare size="1.2rem" className="bukka-icons mr-10 bukka-color" />Phone Number&nbsp;</b><a href="tel:08139844222" className="">08139844222</a>
               </li>
               <li className="restaurant-list-details">
-                <b><MdEmail size="1.2rem" className="bukka-icons mr-10 bukka-color" />Email:</b> &nbsp;<a href="email:ibasira-ng@gmail.com" className="phone-email-link">ibasira-ng@gmail.com</a>
+                <b><MdEmail size="1.2rem" className="bukka-icons mr-10 bukka-color" />Email:</b> &nbsp;<a href="email:ibasira-ng@gmail.com" className="">ibasira-ng@gmail.com</a>
               </li>
               <li className="restaurant-list-details">
                 <b><FcRating size="1.2rem" className="bukka-icons mr-10 bukka-color" />Reviews & Rating:&nbsp;</b> ★★★★☆ (8765 reviews)
@@ -128,7 +128,6 @@ const Bukkas = () => {
           <h2 className="text-danger center mb-25">Nearby Restaurants</h2>
           <section className="bukka-card-container">
             <BukkaCards />
-            
           </section>
         </section>
       </main>
