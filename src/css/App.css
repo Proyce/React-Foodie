@@ -721,7 +721,7 @@ a:hover {
   display: flex;
   margin: auto;
   height: auto;
-  flex-basis: 300px;
+  /* flex-basis: 300px; */
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -785,6 +785,29 @@ a:hover {
 
 .bukka-card-text {
   flex-grow: 1;
+}
+
+@media all and (max-width: 340px) {
+  .bukka-card-container {
+    justify-content: center;
+  }
+
+  .bukka-card {
+    display: flex;
+    margin: 20px 5px;
+    width: 200px;
+  }
+
+  .bukka-details {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .bukka-card img {
+    width: 200px;
+    height: 175px;
+    border-radius: 5px;
+  }
 }
 
 /* Bukka Details */
@@ -1147,7 +1170,6 @@ input[type="checkbox" i] {
 .dashboard-nav {
   background: #f13b03e7;
   width: 12rem;
-
   /* position: fixed; */
 }
 
@@ -1171,7 +1193,7 @@ input[type="checkbox" i] {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 80vh;
+  height: auto;
 }
 
 .dashboard-cards {
