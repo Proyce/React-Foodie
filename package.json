@@ -9,7 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "icons": "^1.0.0",
     "jquery": "^3.5.1",
     "material-ui": "^0.20.2",
