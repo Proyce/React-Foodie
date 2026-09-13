@@ -34,6 +34,14 @@
     "slick-carousel": "^1.8.1",
     "use-react-router": "^1.0.7"
   },
+  "overrides": {
+    "browserslist": "4.28.7",
+    "svgo": "2.8.4"
+  },
+  "resolutions": {
+    "browserslist": "4.28.7",
+    "svgo": "2.8.4"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
